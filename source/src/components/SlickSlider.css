@@ -1,0 +1,12 @@
+.slider-container{
+  padding-top: 20px;
+  padding-left: 40px;
+
+}
+
+.slider-container img{
+    width: 135px;
+    height: 200px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,49 @@
+/* src/components/ChatButton.css */
+.chat-button {
+    position: fixed;
+    bottom: 60px;
+    right: 30px; /* Khoảng cách lề phải */ 
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+    display: none;
+  }
+  
+  .chat-button:hover {
+    transform: scale(1.2); /* Cây bút phóng to 1.2 lần */
+  }
+  
+  .chat-icon,
+  .write-icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .chat-icon {
+    
+    opacity: 1; /* Khi chưa hover chuột Zalo sẽ nổi lên */
+    transition: 1s;
+  }
+  
+  .write-icon {
+    opacity: 0; /* Khi chưa hover chuột cây bút sẽ chìm xuống */
+    transition: 1s;
+  }
+  
+  .chat-button:hover .chat-icon {
+    opacity: 0; /* Khi hover chuột vào rồi Zalo sẽ nổi lên */
+  }
+  
+  .chat-button:hover .write-icon {
+    opacity: 1; /* Khi hover chuột vào rồi cây bút sẽ nổi lên */
+  }
+
+  .chat-button.visible {
+    display: block;
+  }
+  

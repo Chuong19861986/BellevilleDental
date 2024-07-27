@@ -1,0 +1,44 @@
+/* components/Navbar.css
+.navbar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+} */
+
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.main-content {
+  padding-top: 80px; /* Thêm padding-top để tránh bị che bởi Navbar */
+}
+
